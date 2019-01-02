@@ -3,7 +3,7 @@ from Config import config_ingredient
 import Evaluate
 import os
 
-ex = Experiment('Waveunet Prediction', ingredients=[config_ingredient])
+ex = Experiment('Waveunet Prediction', ingredients=[config_ingredient], interactive=True)
 
 @ex.config
 def cfg():
